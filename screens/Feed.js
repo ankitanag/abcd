@@ -6,6 +6,7 @@ import {
   SafeAreaView,
   Platform,
   StatusBar,
+  Button,
   Image
 } from "react-native";
 import { RFValue } from "react-native-responsive-fontsize";
@@ -69,6 +70,7 @@ export default class Feed extends Component {
               renderItem={this.renderItem}
             />
           </View>
+          <Button/>
           <View style={{ flex: 0.08 }} />
         </View>
       );
